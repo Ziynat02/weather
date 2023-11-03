@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+            <div class="weather_section">
+            <div class="info_left">
+                <img src="./img/logo.svg" alt="">
+                <div class="text_left">
+                <h1 id="currentIdLocation">16°</h1>
+                <div class="city">
+                    <h2 id="locationName">London</h2>
+                    <p id="dataTime">06:09 - Monday, 9 Sep ‘23</p>
+                </div>
+                <img id="weahterIcon" src="./img/Cloudy.png" alt="">
+            </div>
+            </div>
+        <div class="weatherInfo">
+            <div class="info_right">
+                    <div class="search">
+                        <input id="searchInput" type="text" placeholder="Search Location...">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                <h4>Weather Details...</h4>
+                <h3>thunderstorm with light drizzle</h3>
+                <div class="texts">
+                    <div class="text">
+                        <p>Temp max</p>
+                        <div class="text_right">
+                            <p id="maxTemp">19°</p>
+                            <img src="./img/red.png" alt="">
+                        </div>
+                    </div>
+                    <div class="text">
+                        <p>Temp min</p>
+                        <div class="text_right">
+                            <p id="minTemp">15°</p>
+                            <img src="./img/blue.png" alt="">
+                        </div>
+                    </div>
+                    <div class="text">
+                        <p>Humadity</p>
+                        <div class="text_right">
+                            <p id="humadity">58%</p>
+                            <img src="./img/rain.png" alt="">
+                        </div>
+                    </div>
+                    <div class="text">
+                        <p id="weatherIconMin">Cloudy</p>
+                        <div class="text_right">
+                            <p id="cloud">86%</p>
+                            <img src="./img/cloud.png" alt="">
+                        </div>
+                    </div>
+                    <div class="text">
+                        <p>Wind</p>
+                        <div class="text_right">
+                            <p  id="wind">5km/h</p>
+                            <img src="./img/windy.png" alt="">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+            </div>
+        </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
